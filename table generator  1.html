@@ -1,0 +1,40 @@
+<html>
+    <head>
+        
+        <style>
+            div{
+                border-style: solid;
+                border-width: 10px;
+                border-color: black;
+                height: 600px;
+                width: 250px;
+                margin-left: 500px;
+                margin-top: 60px;
+                color: azure;
+            }
+            body{
+                font-size: 50px;
+                background-image: url(bk.jpg);
+            }
+            h2{
+                color: forestgreen;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>TABLE GENERATOR</h2>
+    <div>
+            <script>
+                    var table = +prompt("Enter Table Number");
+                    //var s = +prompt("Enter startiing point");
+                    // var e = +prompt("Enter Ending point");
+            ///        var tbl = t*s;
+                    for(var i  = 1;i <= 10;i++){
+                            document.write(table + "*" + i + "=" + table*i + "<br>");
+                            }
+                    </script>
+    </div>
+
+    </body>
+</html>
